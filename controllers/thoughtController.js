@@ -31,12 +31,13 @@ const thoughtController = {
   },
 
   // create thought
-  createThought({ body }, res) {
-    Thought.create(body)
-      .then(({ _id }) => {
+  createThought( req , res) {
+    Thought.create(req.body)
+      .then((value) => {
+        console.log(value);
         return User.findOneAndUpdate(
-          { _id: body.userId },
-          { $push: { thoughts: _id } },
+          { _id: req.body.userId },
+          { $push: { thoughts: value._id } },
           { new: true }
         );
       })
@@ -47,7 +48,7 @@ const thoughtController = {
         }
         res.json(dbUserData);
       })
-      .catch(err => res.status(400).json(err));
+      .catch(err => res.status(500).json(err));
   },
 
   // update thought by id
