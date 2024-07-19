@@ -17,9 +17,9 @@ All that is needed is to run "npm run dev" in the terminal to kick this onto a s
 
 Here are a couple screenshots of me using this application inside insomnia.
 
-![First Screenshot](![alt text](image.png))
+![First Screenshot](![alt text](assets/images/img.png))
 
-![Second Screenshot](![alt text](image2.png))
+![Second Screenshot](![alt text](assets/images/img2.png))
 
 ## Credits
 
