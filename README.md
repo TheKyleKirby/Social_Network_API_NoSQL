@@ -23,7 +23,7 @@ Here are a couple screenshots of me using this application inside insomnia.
 
 ## Credits
 
-I hope you enjoyed this! If you have questions or comments you can find my github at: https://github.com/TheKyleKirby?tab=repositories 
+I hope you enjoyed this! If you have questions or comments you can find my github at: https://github.com/TheKyleKirby
 
 
 ## Features
